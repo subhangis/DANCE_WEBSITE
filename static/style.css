@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Parisienne&display=swap");
+#navbar {
+  background-color: #d43b3b;
+  font-family: "Yeon Sung";
+  padding: 13px, 14px;
+  height: 40px;
+}
+#navbar ul {
+  display: flex;
+  /* flex-direction: row; */
+  /* justify-content: center; */
+  align-items: center;
+}
+#navbar li {
+  list-style: none;
+}
+#navbar li a {
+  text-decoration: none;
+  padding: 13px 20px;
+}
+#navbar li a:hover {
+  color: black;
+}
+#introSection {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "ZCOOL QingKe HuangYou";
+  font-size: 65px;
+  align-items: center;
+  background: center/cover no-repeat url("/static/4041704.jpg");
+  height: 425px;
+  background-color: red;
+}
+#introSection div.small {
+  font-size: 52px;
+  padding: 5px;
+}
+#sponsorsSection {
+  margin: 50px 0;
+  position: absolute;
+  z-index: -1;
+  height: 300px;
+  background-color: #fbd6d6c7;
+  width: 100%;
+}
+#sponsorsSection h2 {
+  text-align: center;
+}
+#footer {
+  background-color: goldenrod;
+  height: 130px;
+  width: 100%;
+}
+
+#missionSection {
+  height: 326px;
+  width: 67%;
+  margin: auto;
+}
+
+#missions {
+  display: flex;
+}
+
+#missionSection h2 {
+  font-size: 36px;
+  font-family: "Yeon Sung";
+  text-align: center;
+}
+.card {
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 40%;
+  margin: 23px 20px 23px 20px;
+  height: 209px;
+}
+.card h3 {
+  text-align: center;
+  margin: 0 12px;
+  margin-top: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#logo {
+  display: flex;
+  color: white;
+  align-items: center;
+  margin: 0 14px;
+  font-size: 28px;
+  margin-right: 40px;
+}
+#logo img {
+  height: 42px;
+  filter: invert(1);
+}
+.card-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card-img {
+  height: 131px;
+  padding: 0 14px;
+  margin: 7px 9px;
+}
+.card-img img {
+  height: inherit;
+}
+#sponsers {
+  height: 191px;
+  max-width: 1000px;
+  margin: 27px auto;
+}
+.spImage {
+  height: 90px;
+  margin: 30px;
+}
+#footer {
+  display: flex;
+  color: white;
+  background-color: black;
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-content {
+  margin: 0 10px;
+}
+
+.card h3 {
+  margin-bottom: 8px;
+}
